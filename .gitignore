@@ -46,3 +46,14 @@ data/processed/
 # OS
 .DS_Store
 Thumbs.db
+
+# External libraries (managed separately)
+# Note: open-r1, DRPruning, EAGLE are vendored in the repo
+# Do not add their .git directories
+
+# Vendored lib large files
+src/edge_model_studio/pruning/DRPruning/instruction_tuning/prompts/*.jsonl
+src/edge_model_studio/pruning/DRPruning/pic/
+src/edge_model_studio/inference/speculative_decoding/eagle3/eagle/data/
+src/edge_model_studio/inference/speculative_decoding/eagle3/figs/
+src/edge_model_studio/inference/speculative_decoding/eagle3/eagle/testbug/

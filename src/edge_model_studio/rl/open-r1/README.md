@@ -299,6 +299,7 @@ Make sure your dataset contains a `verification_info` column with the following 
         }
     ],
 }
+```
 
 For example, to train a smol model on Python problems, start the vLLM server:
 
@@ -798,7 +799,7 @@ If you find this project is useful in your own work, please consider citing as f
 @misc{openr1,
     title = {Open R1: A fully open reproduction of DeepSeek-R1},
     url = {https://github.com/huggingface/open-r1},
-    author = {Hugging Face},
+    author = {{Hugging Face}},
     month = {January},
     year = {2025}
 }
